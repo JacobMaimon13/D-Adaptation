@@ -69,3 +69,9 @@ Our findings suggest that applying D-Adaptation to ASGD is viable, with the **de
 
 ---
 *Based on the final project report submitted to the Dept. of Industrial Engineering and Management, BGU, 2025.*
+
+## 🙏 Acknowledgments
+
+This repository is based on the official implementation of **D-Adaptation** by Meta Research.
+* **Original Codebase:** [facebookresearch/dadaptation](https://github.com/facebookresearch/dadaptation)
+* **Original Paper:** Defazio, A., & Mishchenko, K. (2023). *Learning-Rate-Free Learning by D-Adaptation*.
