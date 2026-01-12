@@ -32,7 +32,7 @@ We evaluated the modified optimizers on Accuracy, Loss, and Training Time.
 ### 1. The Most Promising Approach: $d$ in Denominator
 Placing the adaptation parameter in the denominator yielded the fastest initial convergence. As seen below, the training loss (orange line) drops significantly faster than standard ASGD, though it requires careful handling to avoid overfitting in later epochs.
 
-assets/graph_denominator.png
+![Comparison of Loss and Accuracy](assets/graph_denominator.jpg)
 *(Figure 1: Comparison of Loss and Accuracy when d is in the denominator)*
 
 ### 2. Alternative Approaches
@@ -50,7 +50,7 @@ Other formulations, such as placing $d$ in the numerator or using square roots, 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/JacobMaimon13/D-Adaptation-ASGD.git](https://github.com/YOUR-USERNAME/D-Adaptation-ASGD.git)
+    git clone [https://github.com/JacobMaimon13/D-Adaptation-ASGD.git](https://github.com/JacobMaimon13/D-Adaptation-ASGD.git)
     cd D-Adaptation-ASGD
     ```
 
@@ -61,7 +61,7 @@ Other formulations, such as placing $d$ in the numerator or using square roots, 
 
 3.  **Run the training script:**
     ```bash
-    python src/train.py --optimizer dadapt_asgd --method denominator
+    python train.py --optimizer dadapt_asgd --method denominator
     ```
 
 ## 📄 Conclusion
