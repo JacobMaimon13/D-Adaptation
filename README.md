@@ -32,7 +32,7 @@ We evaluated the modified optimizers on Accuracy, Loss, and Training Time.
 ### 1. The Most Promising Approach: $d$ in Denominator
 Placing the adaptation parameter in the denominator yielded the fastest initial convergence. As seen below, the training loss (orange line) drops significantly faster than standard ASGD, though it requires careful handling to avoid overfitting in later epochs.
 
-![D in Denominator Results](assets/graph_denominator.png)
+assets/graph_denominator.png
 *(Figure 1: Comparison of Loss and Accuracy when d is in the denominator)*
 
 ### 2. Alternative Approaches
