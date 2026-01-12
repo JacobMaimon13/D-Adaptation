@@ -1,4 +1,5 @@
 # filename: dadaptation/dadapt_asgd.py
+# Based on the research by Jacob Maimon and Bar Naor.
 
 import torch
 import torch.optim
