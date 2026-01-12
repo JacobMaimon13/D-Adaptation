@@ -50,7 +50,7 @@ Other formulations, such as placing $d$ in the numerator or using square roots, 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR-USERNAME/D-Adaptation-ASGD.git](https://github.com/YOUR-USERNAME/D-Adaptation-ASGD.git)
+    git clone [https://github.com/JacobMaimon13/D-Adaptation-ASGD.git](https://github.com/YOUR-USERNAME/D-Adaptation-ASGD.git)
     cd D-Adaptation-ASGD
     ```
 
